@@ -69,7 +69,7 @@ endif
 
 " Keep this after expl3Math, as we don’t want math mode started at a \$.
 syn match   expl3CharacterCommand        display contains=@NoSpell
-      \ /\\\%(["#$%&'.=^_`~]\|``\|''\|-\{2,3}\|[?!]`\|^^L\|\~\|\%(a[ae]\|A[AE]\|acute\|[cdHoOPStuvijlL]\|copyright\|d\=dag\|folio\|ldotp\|[lr]q\|oe\|OE\|slash\|ss\|underbar\)\>\)/
+      \ /\\\%(["#$%&'.=^`~]\|``\|''\|-\{2,3}\|[?!]`\|^^L\|\~\|\%(a[ae]\|A[AE]\|acute\|[cdHoOPStuvijlL]\|copyright\|d\=dag\|folio\|ldotp\|[lr]q\|oe\|OE\|slash\|ss\|underbar\)\>\)/
 
 syn cluster expl3Math
       \ contains=expl3MathCommand,expl3MathBoxCommand,
